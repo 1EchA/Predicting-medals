@@ -1,0 +1,29 @@
+Country,Event,Event_Window,Pre_Event_Window,Coefficients,R2,P_Values
+CHN,Volleyball Women's Volleyball,"(2016, 2024)","(2008, 2015)","const    4.770446
+Coach    0.028571
+Year    -0.002372
+dtype: float64",0.7345393705275152,"const    0.156745
+Coach    0.146830
+Year     0.156862
+dtype: float64"
+USA,Volleyball Women's Volleyball,"(2008, 2016)","(2000, 2007)","const    0.994716
+Coach    0.012241
+Year    -0.000497
+dtype: float64",0.9220769478824282,"const    0.216184
+Coach    0.062541
+Year     0.216184
+dtype: float64"
+USA,Women's Gymnastics,"(1984, 1992)","(1976, 1983)","const    0.444860
+Coach    0.042031
+Year    -0.000225
+dtype: float64",0.39762542030187864,"const    0.980680
+Coach    0.749669
+Year     0.980680
+dtype: float64"
+ROU,Women's Gymnastics,"(1976, 1984)","(1972, 1975)","const    58.643974
+Coach     0.723439
+Year     -0.029738
+dtype: float64",0.9628768431775492,"const    0.309572
+Coach    0.140542
+Year     0.309570
+dtype: float64"
