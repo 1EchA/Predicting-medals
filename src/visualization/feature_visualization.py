@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import matplotlib
 
-matplotlib.use('TkAgg')
+matplotlib.use('Agg')
 
 gold_medals = {
     'Gender_Ratio': 7.55,
@@ -44,4 +44,5 @@ plt.pie(sizes, labels=labels, autopct='%1.1f%%', startangle=140, colors=[colors[
 plt.title('Total-Medals Evaluation Results')
 
 plt.tight_layout()
-plt.show()
+plt.savefig('outputs/feature_importance.png')
+# plt.show()

@@ -4,7 +4,6 @@ from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
 import seaborn as sns
 import matplotlib
-import pandas as pd
 import matplotlib.pyplot as plt
 matplotlib.use('TkAgg')
 file_path = 'merged_olympic_data.csv'
@@ -79,10 +78,6 @@ plt.show()
 
 print("\nCountries in each cluster:")
 print(pivot_data[['Cluster']].groupby('Cluster').apply(lambda x: x.index.tolist()))
-
-data_filtered['Gold_Count'] = (data_filtered['Medal'] == 'Gold').astype(int)
-data_filtered['Silver_Count'] = (data_filtered['Medal'] == 'Silver').astype(int)
-data_filtered['Bronze_Count'] = (data_filtered['Medal'] == 'Bronze').astype(int)
 
 data_grouped = data_filtered.groupby(['NOC', 'Event']).agg({
     'Gold_Count': 'sum',

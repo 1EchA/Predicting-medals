@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib
-matplotlib.use('TkAgg')
+matplotlib.use('Agg')
 
 data_total = {
     'NOC': ['USA', 'CHN', 'GBR', 'GER', 'AUS', 'JPN', 'ITA', 'FRA', 'CUB', 'HUN', 'CAN', 'KOR', 'ROU', 'NED', 'BRA'],
@@ -41,7 +41,8 @@ plt.xticks(index, df_total['NOC'], rotation=45, ha='right')  # 设置x轴标签�
 plt.legend()
 
 plt.tight_layout()
-plt.show()
+plt.savefig('outputs/predicted_total_medals_2028.png')
+# plt.show()
 
 plt.figure(figsize=(12, 8))
 bar_width = 0.35
@@ -62,4 +63,5 @@ plt.xticks(index, df_gold['NOC'], rotation=45, ha='right')  # 设置x轴标签�
 plt.legend()
 
 plt.tight_layout()
-plt.show()
+plt.savefig('outputs/predicted_gold_medals_2028.png')
+# plt.show()

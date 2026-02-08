@@ -245,7 +245,7 @@ def train_and_predict_for_each_country(df, target_col='Total_Medals',
 
             metrics_records.append({
                 'NOC': noc,
-                'Best_Params': best_params,
+                'Best_Params': grid_search.best_params_,
                 'CV_MSE': mean_mse_cv,
                 'CV_RMSE': mean_rmse_cv,
                 'Train_MSE': mse_all,
