@@ -14,10 +14,12 @@ build/
 *.xls
 !data/raw/*.csv
 
-# Images
-*.png
-*.jpg
-*.jpeg
+# Images (keep outputs/ and result/ images)
+# *.png
+# *.jpg
+# *.jpeg
+!outputs/*.png
+!result/*.png
 
 # IDE
 .idea/
