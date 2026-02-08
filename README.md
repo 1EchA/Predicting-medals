@@ -33,17 +33,17 @@ Derived from the core GBRT analysis in our [Research Paper](docs/Prediction_and_
 *A systematic approach to multi-feature regression for Olympic medal forecasting.*
 ![Model Architecture](result/Prediction_and_Analysis_Based_on_the_GBRT_Model_page_4_1.png)
 
-### 2. Historical Performance & Trend Analysis
-*Visualizing the historical medal distribution and evolution patterns across different NOCs.*
-![Historical Trends](result/Prediction_and_Analysis_Based_on_the_GBRT_Model_page_10_1.png)
+### 2. 2028 Medal Prediction World Map
+*Global heatmap showing predicted gold medal distribution for the 2028 Olympics.*
+![Prediction Heatmap](result/Prediction_and_Analysis_Based_on_the_GBRT_Model_page_10_1.png)
 
-### 3. Feature Correlation Matrix
-*Understanding the interdependencies between participants, host status, and medal outcomes.*
-![Correlation Matrix](result/Prediction_and_Analysis_Based_on_the_GBRT_Model_page_8_1.png)
+### 3. Winning Rate Correlation Heatmap
+*Heatmap showing the winning rates of top 10 countries across different events.*
+![Correlation Heatmap](result/Prediction_and_Analysis_Based_on_the_GBRT_Model_page_11_1.png)
 
-### 4. Analysis of Influential Factors
-*Deep dive into specific project contributions and performance drivers.*
-![Analysis Results](result/Prediction_and_Analysis_Based_on_the_GBRT_Model_page_13_1.png)
+### 4. Model Residuals Analysis
+*Residual plots validating the GBRT model's prediction accuracy for gold and total medals.*
+![Residuals Plot](result/Prediction_and_Analysis_Based_on_the_GBRT_Model_page_7_1.png)
 
 ---
 
